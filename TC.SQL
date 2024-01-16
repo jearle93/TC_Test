@@ -38,7 +38,7 @@ WITH get_recent_scrape AS (
       y.USER_ID
       ,y.USER_NAME
       ,y.REGION
-      ,y.SEGMENT
+      ,y.SEGMENT AS STAGE
       ,y.CONTENT
       ,y.POST_URL
       ,y.POST_DATE
@@ -52,7 +52,7 @@ SELECT
     grs.USER_ID
     ,grs.USER_NAME
     ,grs.REGION
-    ,grs.SEGMENT
+    ,grs.STAGE
     ,grs.CONTENT
     ,grs.POST_URL
     ,grs.POST_DATE
