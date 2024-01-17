@@ -71,10 +71,8 @@ minutes?
 monday
 month
 mother
-n\\d+
 nam(e(d|s)?|ing)
 news
-"\\Wn{2,}\\W"
 north
 notice
 offer(ed|s|ing)?
@@ -145,5 +143,4 @@ win(s|n(er|ing))
 wind
 word
 work
-"\\Wx{2,}\\W"
 year
